@@ -1,0 +1,277 @@
+@import url(//db.onlinewebfonts.com/c/0c882b5dadf75021f479c43aedb42f28?family=SoapW00-Shirt);
+@font-face {
+    font-family: "SoapW00-Shirt";
+    src: url("//db.onlinewebfonts.com/t/0c882b5dadf75021f479c43aedb42f28.eot");
+    src: url("//db.onlinewebfonts.com/t/0c882b5dadf75021f479c43aedb42f28.eot?#iefix") 
+    format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0c882b5dadf75021f479c43aedb42f28.woff2") 
+    format("woff2"), url("//db.onlinewebfonts.com/t/0c882b5dadf75021f479c43aedb42f28.woff") 
+    format("woff"), url("//db.onlinewebfonts.com/t/0c882b5dadf75021f479c43aedb42f28.ttf") 
+    format("truetype"), url("//db.onlinewebfonts.com/t/0c882b5dadf75021f479c43aedb42f28.svg#SoapW00-Shirt") 
+    format("svg");
+}
+
+
+body {
+    font-family: "Soap" , "Courier New", sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    min-width: 320px;
+    /* min-height: 512px; */
+    /* border: 1px solid #F4A1C7; */
+
+}
+
+.hero {
+    background-image: url(../imadge/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 14px;
+}
+
+.container-size {
+    width: 132px;
+    height: 122px;
+    margin-left: auto;
+    border: 2px solid red;
+        
+}
+
+.hero-title {
+    font-family: "Soap";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 46px;
+    text-align: center;
+    padding-top: 37px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.hero-discription {
+    position: relative;
+    font-family: "Courier New";
+    font-style: normal;
+    font-weight: 700;        
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFF7F7;
+}
+
+
+
+.flex-img {
+    display: flex;
+}
+.img {
+    padding-top: 84px;
+    
+}
+.img-pult{
+    position: absolute;
+        bottom: 0;
+        right: 0;
+  
+}
+
+.icons {
+    position: absolute;
+    bottom: 3px;
+    right: -6px;
+}
+
+.btn {
+    position: absolute;
+        bottom: 54px;
+        right: 41px;
+    background: #F4A1C7;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    transform: rotate(-18.91deg);
+    font-family: 'Soap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #FDFFD5;
+
+    transform: rotate(-19.49deg);
+}
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.backdrop {
+    /* min-width: 100vh; */
+    position: fixed;
+    top: 0;
+    z-index: 7;
+    /* margin: auto; */
+    width: 100%;
+    height: 512px;
+    background-image: url(../imadge/group-6.png);
+    background-size: cover;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    transition: opacity 500ms, visibility 500ms;
+}
+
+.modal {
+    margin: 0 auto;
+    padding: 38px 37px 12px 37px;
+    display: flex;
+    flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+}
+
+.modal-discription {
+    font-family: 'Courier New';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFF7F7;
+        margin-bottom: 12px;
+}
+
+.btn-modal {
+    width: 144px;
+        height: 33px;
+    /* margin-left: auto 0 ; */
+    background: #F4A1C7;
+        border: 1px solid #FFFFFF;
+        border-radius: 8px;
+        font-family: 'Soap';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 0.1em;
+        text-align: center;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+}
+
+.backdrop2 {
+    /* min-width: 320px; */
+    position: fixed;
+    top: 0;
+    z-index: 7;
+    /* margin: auto; */
+    width: 100%;
+    height: 512px;
+    background: linear-gradient(180deg, rgba(46, 193, 228, 0.8) 0%, rgba(253, 255, 213, 0.8) 100%);
+    background-image: url(../imadge/group-7.png);
+    background-size: cover;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    transition: opacity 500ms, visibility 500ms;
+}
+
+
+.modal2 {
+    padding: 37px 28px 99px 28px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.modal-size-2 {
+    width: 243px;
+    height: 63px;
+}
+
+.modal-discription2 {
+    font-family: 'Courier New';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFF7F7;
+        /* margin-bottom: 61px; */
+}
+
+.img-size {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 21px; */
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 61px;
+    width: 264px;
+    height: 246px;
+    border: 1px solid red;
+    background-color: #FFFFFF;
+
+}
+
+.modal2-img {
+    margin-top: 21px;
+}
+
+.modal2-svg{
+    position: absolute;
+    left: 0;
+    top: 105px;
+}
+
+.modal2-paragraph {
+    font-family: 'Soap';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 11px;
+        text-align: center;
+        margin-top: 10px;
+        color: #6397C7;
+}
