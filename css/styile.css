@@ -1,18 +1,47 @@
-@import url(//db.onlinewebfonts.com/c/0c882b5dadf75021f479c43aedb42f28?family=SoapW00-Shirt);
+
 @font-face {
-    font-family: "SoapW00-Shirt";
-    src: url("//db.onlinewebfonts.com/t/0c882b5dadf75021f479c43aedb42f28.eot");
-    src: url("//db.onlinewebfonts.com/t/0c882b5dadf75021f479c43aedb42f28.eot?#iefix") 
-    format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0c882b5dadf75021f479c43aedb42f28.woff2") 
-    format("woff2"), url("//db.onlinewebfonts.com/t/0c882b5dadf75021f479c43aedb42f28.woff") 
-    format("woff"), url("//db.onlinewebfonts.com/t/0c882b5dadf75021f479c43aedb42f28.ttf") 
-    format("truetype"), url("//db.onlinewebfonts.com/t/0c882b5dadf75021f479c43aedb42f28.svg#SoapW00-Shirt") 
-    format("svg");
+    font-family: 'Soap';
+    src: url('../fonts/Alligator Soap Bold2a.eot');
+    src: local('вє'), url('../fonts/Alligator Soap Bold2a.woff') format('woff'), url('../fonts/Alligator Soap Bold2a.ttf') format('truetype'), url('../fonts/Alligator Soap Bold2a.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'Courier New';
+    src: url('../../fonts/couriercyrps.eot');
+    src: local('вє'), url('../fonts/couriercyrps.woff') format('woff'), url('../fonts/couriercyrps.ttf') format('truetype'), url('../fonts/couriercyrps.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Courier New';
+    src: url('../fonts/couriercyrps_bold.eot');
+    src: local('вє'), url('../fonts/couriercyrps_bold.woff') format('woff'), url('../fonts/couriercyrps_bold.ttf') format('truetype'), url('../fonts/couriercyrps_bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_couriercyrps_boldinclined';
+    src: url('../fonts/couriercyrps_boldinclined.eot');
+    src: local('вє'), url('../fonts/couriercyrps_boldinclined.woff') format('woff'), url('../fonts/couriercyrps_boldinclined.ttf') format('truetype'), url('../fonts/couriercyrps_boldinclined.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_couriercyrps_inclined';
+    src: url('../fonts/couriercyrps_inclined.eot');
+    src: local('вє'), url('../fonts/couriercyrps_inclined.woff') format('woff'), url('../fonts/couriercyrps_inclined.ttf') format('truetype'), url('../fonts/couriercyrps_inclined.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
 body {
-    font-family: "Soap" , "Courier New", sans-serif;
+    font-family: "Soap" "Courier New", sans-serif;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -62,7 +91,7 @@ img {
     background-repeat: no-repeat;
     flex-grow: 1;
     text-align: right;
-    padding-right: 14px;
+    padding-right: 5px;
 }
 
 .container-size {
@@ -74,7 +103,7 @@ img {
 }
 
 .hero-title {
-    font-family: "Soap";
+    font-family: 'Soap';
     font-style: normal;
     font-weight: 400;
     font-size: 45px;
@@ -94,6 +123,7 @@ img {
     line-height: 23px;
     text-align: center;
     color: #FFF7F7;
+    padding-right: 23px;
 }
 
 
@@ -102,7 +132,7 @@ img {
     display: flex;
 }
 .img {
-    padding-top: 84px;
+    padding-top: 101px;
     
 }
 .img-pult{
@@ -115,13 +145,13 @@ img {
 .icons {
     position: absolute;
     bottom: 3px;
-    right: -6px;
+    right: 6px;
 }
 
 .btn {
     position: absolute;
-        bottom: 54px;
-        right: 41px;
+        bottom: 52px;
+        right: 45px;
     background: #F4A1C7;
     border: 1px solid #FFFFFF;
     box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
@@ -242,6 +272,7 @@ img {
 }
 
 .img-size {
+    position: relative;
     display: flex;
     flex-direction: column;
     /* padding-top: 21px; */
@@ -250,7 +281,7 @@ img {
     margin-top: 61px;
     width: 264px;
     height: 246px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #FFFFFF;
 
 }
@@ -261,8 +292,8 @@ img {
 
 .modal2-svg{
     position: absolute;
-    left: 0;
-    top: 105px;
+    left: -28px;
+    top: -60px;
 }
 
 .modal2-paragraph {
