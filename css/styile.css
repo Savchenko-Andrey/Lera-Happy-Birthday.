@@ -8,18 +8,18 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Courier New';
+/* @font-face {
+    font-family: 'Roboto';
     src: url('../fonts/couriercyrps.eot');
     src: local('вє'), url('../fonts/couriercyrps.woff') format('woff'), url('../fonts/couriercyrps.ttf') format('truetype'), url('../fonts/couriercyrps.svg') format('svg');
     font-weight: 700;
     font-style: normal;
-}
+} */
 
 
 
 /* @font-face {
-    font-family: 'Courier New';
+    font-family: 'Roboto';
     src: url('../fonts/couriercyrps_inclined.eot');
     src: local('вє'), url('../fonts/couriercyrps_inclined.woff') format('woff'), url('../fonts/couriercyrps_inclined.ttf') format('truetype'), url('../fonts/couriercyrps_inclined.svg') format('svg');
     font-weight: 700;
@@ -28,7 +28,7 @@
 
 
 body {
-    font-family: "Soap" "Courier New", sans-serif;
+    font-family: "Roboto" "Roboto", sans-serif;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -94,9 +94,9 @@ img {
 }
 
 .cintainer-size-2 {
-    width: 202px;
+    width: 227px;
     margin-left: auto;
-    margin-right: 14px;
+    /* margin-right: 14px; */
      /* border: 2px solid red; */
 }
 
@@ -110,18 +110,26 @@ img {
     padding-top: 37px;
     color: #FFFFFF;
     padding-bottom: 85px;
+
+        text-shadow: 0px 0.5px 0 rgb(244, 161, 199), 0px -1px 0 rgb(244, 161, 199), 0.5px 0px 0 rgb(244, 161, 199), -1px 0px 0 rgb(244, 161, 199), 0.5px 0.5px 0 rgb(244, 161, 199), 1px -1px 0 rgb(244, 161, 199), -1px 1px 0 rgb(244, 161, 199), -1px -1px 0 rgb(244, 161, 199);
+        -webkit-text-shadow: 0px 0.5px 0 rgb(244, 161, 199), 0px -1px 0 rgb(244, 161, 199), 0.5px 0px 0 rgb(244, 161, 199), -1px 0px 0 rgb(244, 161, 199), 0.5px 0.5px 0 rgb(244, 161, 199), 1px -1px 0 rgb(244, 161, 199), -1px 1px 0 rgb(244, 161, 199), -1px -1px 0 rgb(244, 161, 199);
+        -moz-text-shadow: 0px 0.5px 0 rgb(244, 161, 199), 0px -1px 0 rgb(244, 161, 199), 0.5px 0px 0 rgb(244, 161, 199), -1px 0px 0 rgb(244, 161, 199), 0.5px 0.5px 0 rgb(244, 161, 199), 1px -1px 0 rgb(244, 161, 199), -1px 1px 0 rgb(244, 161, 199), -1px -1px 0 rgb(244, 161, 199);
+        font-size: 61px;
+        color: rgb(255, 255, 255);
+        font-family: "Soap", Courier, monospace;
+    
 }
 
 .hero-discription {
     position: relative;
-    font-family: "Courier New";
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 700;        
-    font-size: 31px;
-    line-height: 29px;
+    font-size: 20px;
+    line-height: 23px;
     text-align: center;
     color: #FFF7F7;
-    padding-right: 23px;
+    padding-right: 53px;
 }
 
 
@@ -142,8 +150,8 @@ img {
 
 .icons {
     position: absolute;
-    bottom: 1px;
-    right: 0px;
+    bottom: -2px;
+    right: 31px;
 }
 
 .btn {
@@ -191,7 +199,7 @@ img {
 
 .modal {
     margin: 0 auto;
-    padding: 38px 37px 12px 37px;
+    padding: 38px 32px 12px 32px;
     display: flex;
     flex-direction: column;
         flex-wrap: wrap;
@@ -199,16 +207,40 @@ img {
         align-items: center;
 }
 
+
+
+
 .modal-discription {
-    font-family: 'Courier New';
+    position: relative;
+    font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
-        font-size: 31px;
-        line-height: 29px;
-        text-align: center;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: right;
         color: #FFF7F7;
         margin-bottom: 100px;
 }
+
+.icons-modal-1 {
+    position: absolute;
+        top: 221px;
+        left: 32px;
+}
+
+.icons-modal-2 {
+    position: absolute;
+    top: 180px;
+    left: 44px;
+}
+
+.icons-modal-3 {
+    position: absolute;
+    top: 115px;
+    left: 30px;
+}
+
+
 
 .btn-modal {
     width: 144px;
@@ -261,11 +293,11 @@ img {
 }
 
 .modal-discription2 {
-    font-family: 'Courier New';
+    font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
-        font-size: 31px;
-        line-height: 29px;
+        font-size: 20px;
+        line-height: 23px;
         text-align: center;
         color: #FFF7F7;
         /* margin-bottom: 106px; */
@@ -278,7 +310,7 @@ img {
     /* padding-top: 21px; */
     /* justify-content: center; */
     align-items: center;
-    margin-top: 185px;
+    margin-top: 150px;
     width: 313px;
     height: 289px;
     /* border: 1px solid red; */
@@ -304,5 +336,11 @@ img {
         line-height: 13px;
         text-align: center;
         margin-top: 10px;
-        color: #6397C7;
+        color: #575757;
 }
+
+
+/* fadeOut на фотку */
+/* rotateIn на таблетки */
+/* flash  на кнопку*/
+/* animate__tada на будильник */
